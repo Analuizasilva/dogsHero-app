@@ -1,8 +1,8 @@
-import React from "react";
 import { Button, Col, Container, Form, Navbar, Row } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
-import Head from "../../Components/Head/Head";
+import Head from "../../Components/Head/Index";
 // import styles from "./Login.module.css";
+
 const Login = () => {
   const location = useLocation();
   return (
@@ -47,7 +47,7 @@ const Login = () => {
 
               <Form.Group className="mb-3">
                 <Navbar.Text>
-                  <a href="#login">Lost Password?</a>
+                  <a href="/recoverPassword">Lost Password?</a>
                 </Navbar.Text>
               </Form.Group>
 
@@ -57,7 +57,7 @@ const Login = () => {
             </Form>
             <h2>Register</h2>
             <p>
-              Don't have an account yet? Register <a href="#login">here.</a>
+              Don't have an account yet? Register <a href="/register">here.</a>
             </p>{" "}
           </Col>
         </Row>

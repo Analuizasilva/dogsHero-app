@@ -1,9 +1,8 @@
-import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Body from "./Components/Body/Body";
-import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
+import Body from "./Components/Body/Index";
+import Header from "./Components/Header/Index";
+import Footer from "./Components/Footer/Index";
 
 function App() {
   return (

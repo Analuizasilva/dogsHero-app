@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Navbar } from "react-bootstrap";
 import DogSvg from "../Svg/DogSvg";
 import UserSvg from "../Svg/UserSvg";
